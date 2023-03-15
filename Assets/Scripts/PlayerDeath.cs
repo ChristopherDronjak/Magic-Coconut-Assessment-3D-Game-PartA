@@ -16,6 +16,7 @@ public class PlayerDeath : MonoBehaviour
 
     private void RestartLevel()
     {        
+        AudioManager.instance.Play("Collision");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);       
     }
 }

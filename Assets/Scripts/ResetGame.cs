@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ResetGame : MonoBehaviour
 {
-    public float threshold = -50f;
+    public float threshold = -15f;
 
     // Update is called once per frame
     void Update()
